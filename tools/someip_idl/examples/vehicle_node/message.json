@@ -1,5 +1,5 @@
 {
-  "namespace": "openveh::someip::params",
+  "namespace": "openveh::someip::vehicle",
   "types": [
     {
       "name": "WheelInfo",
@@ -23,24 +23,36 @@
   ],
   "messages": [
     {
-      "name": "GetVehicleStatusRequest",
+      "name": "GetVehicleInfoRequest",
       "fields": [
         { "name": "requestId", "type": "u32" },
         { "name": "targetVin", "type": "string", "lengthType": "u16" }
       ]
     },
     {
-      "name": "GetVehicleStatusResponse",
+      "name": "GetVehicleInfoResponse",
       "fields": [
         { "name": "requestId", "type": "u32" },
         { "name": "status", "type": "VehicleStatus" }
       ]
     },
     {
-      "name": "VehicleStatusEvent",
+      "name": "VehicleInfoChangedEvent",
       "fields": [
         { "name": "eventSequence", "type": "u32" },
         { "name": "status", "type": "VehicleStatus" }
+      ]
+    },
+    {
+      "name": "SetCruiseSpeedRequest",
+      "fields": [
+        { "name": "targetSpeedKph", "type": "u16" }
+      ]
+    },
+    {
+      "name": "SetCruiseSpeedResponse",
+      "fields": [
+        { "name": "accepted", "type": "bool" }
       ]
     }
   ]

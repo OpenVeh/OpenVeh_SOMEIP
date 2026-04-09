@@ -1,0 +1,16 @@
+{
+  "namespace": "openveh::someip::vehicle",
+  "clients": [
+    {
+      "name": "VehicleInfoClient",
+      "service": "VehicleInfoService",
+      "methods": ["GetVehicleInfo"],
+      "events": ["VehicleInfoChanged"]
+    },
+    {
+      "name": "CruiseControlClient",
+      "service": "VehicleInfoService",
+      "methods": ["SetCruiseSpeed"]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "namespace": "openveh::someip::vehicle",
+  "services": [
+    {
+      "name": "VehicleInfoService",
+      "serviceId": "0x1234",
+      "methods": [
+        {
+          "name": "GetVehicleInfo",
+          "methodId": "0x0001",
+          "request": "GetVehicleInfoRequest",
+          "response": "GetVehicleInfoResponse"
+        },
+        {
+          "name": "SetCruiseSpeed",
+          "methodId": "0x0003",
+          "request": "SetCruiseSpeedRequest",
+          "response": "SetCruiseSpeedResponse"
+        }
+      ],
+      "events": [
+        {
+          "name": "VehicleInfoChanged",
+          "eventId": "0x8001",
+          "payload": "VehicleInfoChangedEvent"
+        }
+      ]
+    }
+  ]
+}

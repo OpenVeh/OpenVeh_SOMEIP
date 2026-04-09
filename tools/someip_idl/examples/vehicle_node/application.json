@@ -1,0 +1,25 @@
+{
+  "namespace": "openveh::someip::vehicle",
+  "application": {
+    "name": "VehicleNodeApplication",
+    "serviceInstances": [
+      {
+        "name": "VehicleInfoService",
+        "service": "VehicleInfoService",
+        "instanceId": "0x0001"
+      }
+    ],
+    "clientInstances": [
+      {
+        "name": "VehicleInfoClientMain",
+        "client": "VehicleInfoClient",
+        "serviceInstance": "VehicleInfoService"
+      },
+      {
+        "name": "CruiseControlClientMain",
+        "client": "CruiseControlClient",
+        "serviceInstance": "VehicleInfoService"
+      }
+    ]
+  }
+}
