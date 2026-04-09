@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_sd_service.dir/tests/test_sd_service.cpp.o -o test_sd_service  libsomeip_sd_cpp.a -lpthread 

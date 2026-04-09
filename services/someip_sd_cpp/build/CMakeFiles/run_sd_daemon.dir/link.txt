@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/run_sd_daemon.dir/examples/run_sd_daemon.cpp.o -o run_sd_daemon  libsomeip_sd_cpp.a -lpthread 

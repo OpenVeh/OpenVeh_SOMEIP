@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsomeip_sd_cpp.a CMakeFiles/someip_sd_cpp.dir/src/protocol.cpp.o CMakeFiles/someip_sd_cpp.dir/src/sd_api.cpp.o CMakeFiles/someip_sd_cpp.dir/src/sd_daemon.cpp.o
+/usr/bin/ranlib libsomeip_sd_cpp.a

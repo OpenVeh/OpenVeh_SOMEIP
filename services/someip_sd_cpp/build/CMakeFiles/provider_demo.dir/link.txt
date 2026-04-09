@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/provider_demo.dir/examples/provider_demo.cpp.o -o provider_demo  libsomeip_sd_cpp.a -lpthread 
