@@ -1,0 +1,12 @@
+{
+  "namespace": "openveh::someip::params",
+  "messages": [
+    {
+      "name": "VehicleStatusEvent",
+      "fields": [
+        { "name": "eventSequence", "type": "u32" },
+        { "name": "status", "type": "VehicleStatus" }
+      ]
+    }
+  ]
+}
